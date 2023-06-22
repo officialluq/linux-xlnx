@@ -34,6 +34,12 @@
 		view-port = <0x0170>;
 		drv-vbus;
 	};
+
+	oled_driver {
+		compatible = "agh,oled_driver";
+		reg = <0x43C00000 0x100000>;
+	};
+
 };
 
 &clkc {
